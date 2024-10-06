@@ -1,7 +1,7 @@
 //your code here
  const homeLink = document.getElementById('homeLink');
-        const aboutLink = document.getElementById('aboutLink');
-        const contactLink = document.getElementById('contactLink');
+ const aboutLink = document.getElementById('aboutLink');
+ const contactLink = document.getElementById('contactLink');
 
         // Function to remove 'active' class from all links
         function removeActiveClasses() {
