@@ -1,4 +1,5 @@
 //your code here
+document.addEventListener("DOMContentLoaded", function() {
  const homeLink = document.getElementById('homeLink');
  const aboutLink = document.getElementById('aboutLink');
  const contactLink = document.getElementById('contactLink');
@@ -25,3 +26,4 @@
             removeActiveClasses();
             contactLink.classList.add('active');
         });
+});
